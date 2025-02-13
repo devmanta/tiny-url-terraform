@@ -1,0 +1,18 @@
+# Terraform 상태 파일 (클라우드 인프라 정보 포함)
+terraform.tfstate
+terraform.tfstate.backup
+
+# Terraform 디렉토리 (로컬 캐시 파일)
+.terraform/
+.terraform.lock.hcl
+
+# 계획 파일 (일시적인 실행 계획)
+terraform.tfplan
+
+# `.env` 파일 (AWS 크리덴셜 정보 등 포함 가능)
+.env
+.env.*
+
+# 개인 키 (SSH 키 등)
+*.pem
+*.key
